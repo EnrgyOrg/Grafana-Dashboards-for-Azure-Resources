@@ -2,7 +2,7 @@
 #Connect Azure and take storage information
 
 #Azure AD App (Grafana) - Cert Connection 
-Connect-AzAccount -ApplicationId "dded44b9-b4a2-483e-9759-9f500a97efb2" -Tenant "1a20d766-57ef-4f97-8226-00998d862d62" -CertificateThumbprint "5A6B74888DD2E98661F3CE00066ED0E7883F08E2"
+Connect-AzAccount -ApplicationId "" -Tenant "" -CertificateThumbprint ""
 
 $StorageAccounts=Get-AzStorageAccount
 
